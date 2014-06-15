@@ -481,6 +481,7 @@ section.slider {
 	box-shadow: none;
 	background-image: none;
 	opacity: 0.5;
+	color: #fff;
 }
 
 .dislike:hover, .dislike:focus {
