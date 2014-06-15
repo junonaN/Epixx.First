@@ -1,6 +1,6 @@
-window.onload=function (){
+$.fn.cycle.defaults.autoSelector = '.slides';
 
-	$.fn.cycle.defaults.autoSelector = '.slides';
+window.onload=function (){
 
     var popupOpen    = $(".popup-toggle"),
         popupOverlay = $(".popup-overlay");
