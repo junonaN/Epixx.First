@@ -323,21 +323,22 @@ section.advantages {
 	padding-top: 60px;
 }
 
+.advantages .wrapper {
+	border-bottom: 1px solid  #f2f2f2;
+	padding-bottom: 0;
+	margin-bottom: 61px;
+}
+
 .advantage {
 	width: 311px;
 	text-align: center;
-	margin: 0;
-	border-bottom: 1px solid  #f2f2f2;
-	border-right: 1px solid  #f2f2f2;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 	float: left;
-	padding-bottom: 45px;
-	margin-bottom: 61px;
+	padding: 0 15px 45px 15px;
 }
-.advantage:last-child {
-	border-right: 0px solid  #f2f2f2;
+
+.advantage.middle {
+	border-right: 1px solid  #f2f2f2;
+	border-left: 1px solid  #f2f2f2;
 }
 
 .advantage-title {
@@ -601,6 +602,7 @@ section.how-to {
 
 .how-to .phases {
 	margin: auto;
+	border-bottom: 1px solid #f2f2f2;
 }
 
 .phases .phase {
@@ -609,13 +611,13 @@ section.how-to {
 	float: left;
 	padding: 60px 20px 30px 20px;
 	position: relative;
-	border-bottom: 1px solid #f2f2f2;
-	border-right: 1px solid #f2f2f2;
 }
 
-.phases .phase:last-child {
-	border-right: 0px solid #fff;
+.phase.middle {
+	border-right: 1px solid #f2f2f2;
+	border-left: 1px solid #f2f2f2;
 }
+
 
 .phases .phase:before {
 	content: '';
@@ -767,28 +769,23 @@ img.thumb-up-man {
 
 .main-facts {
 	margin-bottom: 40px;
+	border-bottom: 1px solid  #f2f2f2;
 }
 
 .fact {
 	text-align: left;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	border-bottom: 1px solid  #f2f2f2;
-	display: block;
-	height: 90px;
 	vertical-align: top;
-	float: left;
+	padding: 0 10px 10px 40px;
 }
 
 .fact:first-child {
-	padding-right: 42px;
 	width: 211px;
 	border-right: 1px solid  #f2f2f2;
+	padding-left: 0;
 }
 .fact:last-child {
-	padding-left: 42px;
-	width: 257px;
+	width: 255px;
+	padding-right: 0;
 }
 
 .fact h4 {
