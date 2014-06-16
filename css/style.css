@@ -371,21 +371,21 @@ section.free-visit {
 	display: block;
 }
 
-.free-visit .column {
-	height: 519px;
-	float: right;
-	display: block;
-}
-
-.free-visit .column:last-child {
+.free-visit .column:first-child {
 	width: 440px;
 }
 
-.free-visit .column:first-child {
+.free-visit .column:last-child {
 	width: 470px;
-	padding-top: 54px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
+.free-visit .column {
+	display: inline-block;
+	min-height: 519px;
+	vertical-align: bottom;
+}
 
 .free-visit img.thumb-right-girl {
 	vertical-align: bottom;
@@ -421,6 +421,7 @@ section.free-visit {
 	font-size: 18px;
 	color: #262626;
 	padding-bottom: 12px;
+	list-style-position: inside
 }
 
 
@@ -735,18 +736,17 @@ section.facts {
 }
 
 .facts .column {
-	height: 656px;
-	float: right;
-}
-
-.facts .column:last-child {
-	width: 450px;
-	float: left;
+	min-height: 656px;
+	vertical-align: bottom;
 }
 
 .facts .column:first-child {
+	width: 450px;
+}
+
+.facts .column:last-child {
 	width: 470px;
-	float: right;
+	padding-bottom: 30px;
 }
 
 img.thumb-up-man {
