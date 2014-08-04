@@ -800,7 +800,7 @@ img.thumb-up-man {
 	padding-left: 0;
 }
 .fact:last-child {
-	width: 255px;
+	width: 254px;
 	padding-right: 0;
 }
 
@@ -866,6 +866,11 @@ footer .row {
 footer .on-map {
 	font-size: 36px;
 	color: #333;
+}
+
+footer .on-map:hover {
+	color: #555;
+	text-decoration: none;
 }
 
 footer .phone {
